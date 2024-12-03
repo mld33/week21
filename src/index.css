@@ -1,0 +1,40 @@
+/* Общий стиль для всего документа */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* Светло-голубой фон */
+}
+
+/* Стиль основного контейнера */
+.App {
+  width: 90%;
+  max-width: 1200px; /* Ограничение по ширине */
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Заголовок */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #00796b; /* Темно-зеленый цвет */
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
